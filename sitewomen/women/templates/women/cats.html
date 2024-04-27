@@ -1,0 +1,20 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Подробная информация</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles2.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mentor-heading">Подробная информация</h1>
+        <p>User ID: {{ userId }}</p>
+        <p>ID: {{ id }}</p>
+        <p>Title: {{ title }}</p>
+        <a href="{% url 'home' %}">Вернутся назад</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #1E1D1C;
+    height: 100vh; /* Устанавливаем высоту body равной высоте viewport */
+    display: flex; /* Используем flexbox для выравнивания */
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+}
+a {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center; /* Выравнивание текста по центру */
+    background: linear-gradient(to right, #FF707F 0%, #FF9C6A 47%, #DB64DC 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    display: block; /* Добавляем это свойство для выравнивания по центру */
+}

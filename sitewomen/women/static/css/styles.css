@@ -1,0 +1,57 @@
+body {
+    background-color: #1E1D1C; /* Фон всей страницы */
+    color: #FFFFFF; /* Цвет текста на странице */
+    font-family: 'Manrope', sans-serif; /* Шрифт для всей страницы */
+}
+
+.container {
+    display: flex; /* Используем flexbox для основного контейнера */
+    flex-direction: column; /* Элементы выстраиваются вертикально */
+    align-items: flex-start; /* Выравнивание элементов по левому краю */
+    padding: 20px; /* Внутренние отступы */
+}
+
+h1 {
+    color: #FFFFFF; /* Цвет текста заголовка */
+    font-size: 36px; /* Размер шрифта заголовка */
+}
+
+.rounded-rectangle {
+    border: 2px solid #FFFFFF; /* Белый контур */
+    border-radius: 15px; /* Закругление углов */
+    margin-top: 20px; /* Отступ сверху */
+    display: flex; /* Используем flexbox для выравнивания содержимого */
+    flex-direction: column; /* Элементы располагаются в колонку */
+    align-items: flex-start; /* Выравнивание элементов по левому краю */
+    padding: 20px; /* Внутренние отступы */
+    width: auto; /* Ширина определяется содержимым */
+}
+
+#square {
+    width: 120px; /* Ширина квадрата */
+    height: 120px; /* Высота квадрата */
+    margin-bottom: 20px; /* Отступ снизу */
+    border: 10px solid;
+    border-image: linear-gradient(to bottom right, #FF707F, #FF9C6A, #DB64DC) 1; /* Градиент для рамки */
+}
+
+.text-content {
+    display: flex; /* Используем flexbox для текста */
+    flex-direction: column; /* Элементы располагаются в колонку */
+}
+
+p {
+    color: #FFFFFF; /* Цвет текста параграфов */
+    font-size: 16px; /* Размер шрифта параграфов */
+    line-height: 1.5; /* Высота строки параграфов */
+}
+
+a {
+    color: #007bff; /* Цвет ссылок */
+    text-decoration: none; /* Убрать подчёркивание ссылок */
+    margin-bottom: 20px; /* Отступ снизу для ссылки */
+}
+
+a:hover {
+    text-decoration: underline; /* Подчёркивание при наведении на ссылку */
+}

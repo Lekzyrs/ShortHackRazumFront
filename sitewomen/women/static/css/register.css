@@ -1,0 +1,61 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #1E1D1C;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size:60px;
+    text-align: center;
+    background: linear-gradient(90deg, #E9BD81 0%, #CF4A8E 50%, #886BE9 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+p{
+    font-size:30px;
+    color:#808080;
+    margin-bottom: 20px;
+
+}
+
+p{
+    font-size:30px;
+    color:#808080;
+    margin-bottom: 20px;
+
+}
+input[type="text"] {
+    width: 1280px; /* Ширина поля ввода */
+    padding: 10px; /* Внутренние отступы */
+    border: 2px solid #ccc; /* Граница */
+    border-radius: 20px; /* Скругленные углы */
+    box-sizing: border-box; /* Учитывать padding в ширине */
+    font-size: 20px; /* Размер шрифта */
+    margin-bottom: 200px;
+}
+
+input[type="text"] {
+  position: relative;
+  top: 6px;
+  width: 1280px; /* Ширина поля ввода */
+  padding: 10px; /* Внутренние отступы */
+  border: 2px solid #ccc; /* Граница */
+  border-radius: 20px; /* Скругленные углы */
+  box-sizing: border-box; /* Учитывать padding в ширине */
+  font-size: 20px; /* Размер шрифта */
+  margin-bottom: 10px;
+}
+
+
+a {
+    color: #8A8989; /* Цвет ссылок */
+
+}

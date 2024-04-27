@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Имя ментора</title>
+    <!-- Подключение файла CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <!-- Подключение шрифта Manrope -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1 class="mentor-heading">Имена менторов</h1>
+    <div class="rounded-rectangle">
+        <div id="square"></div>
+        <div class="text-content">
+            <p>User ID: {{ userId }}</p>
+            <p>ID: {{ id }}</p>
+            <a href="{% url 'cats_id' 1 %}">Подробнее о менторе</a>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>

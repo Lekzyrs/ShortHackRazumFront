@@ -1,0 +1,52 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Подробная информация</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/register2.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="kol.png" />
+    <a href="{% url 'bl' %}">сохранить</a>
+    <h1>ЗАПОЛНИТЕ СВОЕ РЕЗЮМЕ</h1>
+    <div class = "unter">
+        <p><h1>Укажите институт ИКН</h1></p>
+
+
+    </div>
+    <div class = "inst">
+        <p><button class="button">Бизнес-информатика и системы управления производством</button></p>
+        <p><button class="button">Автоматизированное проектирование и дизайн</button></p>
+        <p><button class="button">Автоматизированные системы управления</button></p>
+        <p><button class="button">Инженерная кибернетика</button></p>
+        <p><button class="button">Инфокоммуникационные технологии</button></p>
+        <p><button class="button">Магистерская школа информационных бизнес-систем</button></p>
+
+
+
+
+    </div>
+    <input type="file">
+    <p> Напиши ваше ФИ </p>
+    <input type="text" />
+    <h1>Укажите кафедру ИКН</h1>
+
+<div class = "levo">
+    <p>Укажите нынешнее место работы</p>
+    <input type="text" />
+    <p>Напишите несколько слов о себе</p>
+    <p>например, состояли\состоите ли вы в клубах
+        Itam, в каком крупных проектах вы учавствовали</p>
+    <input type="text" />
+    <p>Укажите свой Телеграмм</p>
+    <input type="text" />
+
+
+</div>
+
+<p>укажите год окончания (даже если это через несколько лет)</p>
+<input type="text" />
+</body>

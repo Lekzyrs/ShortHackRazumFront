@@ -1,0 +1,23 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Подробная информация</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/register.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class = "container">
+    <h1> Регистрация </h1>
+</div>
+<p> Придумайте логин </p>
+<input type="text" />
+<p> Придумайте пароль </p>
+<input type="text" />
+
+
+<p><a href="{% url 'reg2' %}">зарегестрироваться</a></p>
+</body>
+</html>
